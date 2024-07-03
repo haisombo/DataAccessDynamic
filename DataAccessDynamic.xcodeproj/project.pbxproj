@@ -8,11 +8,33 @@
 
 /* Begin PBXBuildFile section */
 		83EEB5432C33AAFB00DD62BF /* DataAccessDynamic.h in Headers */ = {isa = PBXBuildFile; fileRef = 83EEB5422C33AAFB00DD62BF /* DataAccessDynamic.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		83EEB54B2C33AB1800DD62BF /* DataAccess.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83EEB54A2C33AB1800DD62BF /* DataAccess.swift */; };
+		83EEB54D2C33AB8A00DD62BF /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83EEB54C2C33AB8A00DD62BF /* Constant.swift */; };
+		83EEB54F2C33ABA600DD62BF /* Log.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83EEB54E2C33ABA600DD62BF /* Log.swift */; };
+		83EEB5512C33AC6800DD62BF /* Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83EEB5502C33AC6800DD62BF /* Extention.swift */; };
+		83EEB5532C33ACF500DD62BF /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83EEB5522C33ACF500DD62BF /* NetworkError.swift */; };
+		83EEB5552C33AD2200DD62BF /* RequestMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83EEB5542C33AD2200DD62BF /* RequestMethod.swift */; };
+		83EEB5572C33AD6100DD62BF /* EndPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83EEB5562C33AD6100DD62BF /* EndPoint.swift */; };
+		83EEB55E2C33B20300DD62BF /* NetworkActivityIndicatorManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83EEB55D2C33B20300DD62BF /* NetworkActivityIndicatorManager.swift */; };
+		83EEB5602C33B31100DD62BF /* CuteData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83EEB55F2C33B31100DD62BF /* CuteData.swift */; };
+		83EEB5622C33B3AD00DD62BF /* MyDefefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83EEB5612C33B3AD00DD62BF /* MyDefefaults.swift */; };
+		83EEB5642C33B80400DD62BF /* Upload.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83EEB5632C33B80400DD62BF /* Upload.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		83EEB53F2C33AAFB00DD62BF /* DataAccessDynamic.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DataAccessDynamic.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		83EEB5422C33AAFB00DD62BF /* DataAccessDynamic.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataAccessDynamic.h; sourceTree = "<group>"; };
+		83EEB54A2C33AB1800DD62BF /* DataAccess.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataAccess.swift; sourceTree = "<group>"; };
+		83EEB54C2C33AB8A00DD62BF /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		83EEB54E2C33ABA600DD62BF /* Log.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Log.swift; sourceTree = "<group>"; };
+		83EEB5502C33AC6800DD62BF /* Extention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extention.swift; sourceTree = "<group>"; };
+		83EEB5522C33ACF500DD62BF /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
+		83EEB5542C33AD2200DD62BF /* RequestMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestMethod.swift; sourceTree = "<group>"; };
+		83EEB5562C33AD6100DD62BF /* EndPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndPoint.swift; sourceTree = "<group>"; };
+		83EEB55D2C33B20300DD62BF /* NetworkActivityIndicatorManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkActivityIndicatorManager.swift; sourceTree = "<group>"; };
+		83EEB55F2C33B31100DD62BF /* CuteData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CuteData.swift; sourceTree = "<group>"; };
+		83EEB5612C33B3AD00DD62BF /* MyDefefaults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyDefefaults.swift; sourceTree = "<group>"; };
+		83EEB5632C33B80400DD62BF /* Upload.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Upload.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +51,8 @@
 		83EEB5352C33AAFB00DD62BF = {
 			isa = PBXGroup;
 			children = (
+				83EEB55C2C33AF2000DD62BF /* Extention */,
+				83EEB5492C33AB0600DD62BF /* Networking */,
 				83EEB5412C33AAFB00DD62BF /* DataAccessDynamic */,
 				83EEB5402C33AAFB00DD62BF /* Products */,
 			);
@@ -48,6 +72,31 @@
 				83EEB5422C33AAFB00DD62BF /* DataAccessDynamic.h */,
 			);
 			path = DataAccessDynamic;
+			sourceTree = "<group>";
+		};
+		83EEB5492C33AB0600DD62BF /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				83EEB54A2C33AB1800DD62BF /* DataAccess.swift */,
+				83EEB54C2C33AB8A00DD62BF /* Constant.swift */,
+				83EEB54E2C33ABA600DD62BF /* Log.swift */,
+				83EEB5522C33ACF500DD62BF /* NetworkError.swift */,
+				83EEB5542C33AD2200DD62BF /* RequestMethod.swift */,
+				83EEB5562C33AD6100DD62BF /* EndPoint.swift */,
+				83EEB55D2C33B20300DD62BF /* NetworkActivityIndicatorManager.swift */,
+				83EEB55F2C33B31100DD62BF /* CuteData.swift */,
+				83EEB5612C33B3AD00DD62BF /* MyDefefaults.swift */,
+				83EEB5632C33B80400DD62BF /* Upload.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		83EEB55C2C33AF2000DD62BF /* Extention */ = {
+			isa = PBXGroup;
+			children = (
+				83EEB5502C33AC6800DD62BF /* Extention.swift */,
+			);
+			path = Extention;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -93,6 +142,7 @@
 				TargetAttributes = {
 					83EEB53E2C33AAFB00DD62BF = {
 						CreatedOnToolsVersion = 15.2;
+						LastSwiftMigration = 1520;
 					};
 				};
 			};
@@ -129,6 +179,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				83EEB5512C33AC6800DD62BF /* Extention.swift in Sources */,
+				83EEB54B2C33AB1800DD62BF /* DataAccess.swift in Sources */,
+				83EEB5602C33B31100DD62BF /* CuteData.swift in Sources */,
+				83EEB54D2C33AB8A00DD62BF /* Constant.swift in Sources */,
+				83EEB54F2C33ABA600DD62BF /* Log.swift in Sources */,
+				83EEB5642C33B80400DD62BF /* Upload.swift in Sources */,
+				83EEB5552C33AD2200DD62BF /* RequestMethod.swift in Sources */,
+				83EEB5572C33AD6100DD62BF /* EndPoint.swift in Sources */,
+				83EEB5532C33ACF500DD62BF /* NetworkError.swift in Sources */,
+				83EEB5622C33B3AD00DD62BF /* MyDefefaults.swift in Sources */,
+				83EEB55E2C33B20300DD62BF /* NetworkActivityIndicatorManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,6 +324,7 @@
 		83EEB5472C33AAFB00DD62BF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -286,6 +348,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -294,6 +357,7 @@
 		83EEB5482C33AAFB00DD62BF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;

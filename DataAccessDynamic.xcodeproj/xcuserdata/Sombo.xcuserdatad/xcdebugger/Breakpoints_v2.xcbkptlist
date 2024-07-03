@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "989B55D5-CABE-4E80-9514-58414A36846E"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "62279E43-C372-4E4E-A71A-145EF00EF3FD"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Networking/DataAccess.swift"
+            startingColumnNumber = "47"
+            endingColumnNumber = "47"
+            startingLineNumber = "339"
+            endingLineNumber = "339"
+            landmarkName = "upload(fileName:paramName:file:baseURL:endpoint:contentType:pathVariable:urlParam:body:responseType:httpMethod:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
